@@ -9,13 +9,14 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.3.4",
-    "meteor-node-stubs": "^0.4.1"
+    "faker": "^4.1.0",
+    "lodash": "^4.17.15",
+    "meteor-node-stubs": "^0.4.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
   },
   "meteor": {
-    "mainModule": {
-      "client": "client/main.js",
-      "server": "server/main.js"
-    },
+    "mainModule": {},
     "testModule": "tests/main.js"
   }
 }
